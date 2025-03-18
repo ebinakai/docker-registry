@@ -38,10 +38,10 @@ curl http://localhost:5000/v2/_catalog
 
 ```bash
 # タグを付ける
-docker tag memollection_app:latest localhost:5000/memollection_app:latest
+docker tag conatiner-name:latest localhost:5000/container-name:latest
 
 # プッシュする
-docker push localhost:5000/memollection_app:latest
+docker push localhost:5000/container-name:latest
 ```
 
 ### 2.2. pull で取得
@@ -49,7 +49,7 @@ docker push localhost:5000/memollection_app:latest
 ほかの開発者や別の環境からレジストリを利用する場合は、同様にタグ付きリポジトリ名を指定して pull します。
 
 ```bash 
-docker pull localhost:5000/memollection_app:latest 
+docker pull localhost:5000/container-name:latest 
 ```
 
 ## 3. k0s など containerd 環境から利用する場合
