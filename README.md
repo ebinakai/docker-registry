@@ -7,7 +7,7 @@
 ### 1.1. リポジトリのクローン
 
 ```bash 
-git clone <REPOSITORY_URL> cd <REPOSITORY_NAME> 
+git clone docker-registry cd docker-registry
 ```
 
 ### 1.2. docker-compose の起動
