@@ -9,3 +9,9 @@ services:
     volumes:
       - ./data:/var/lib/registry
     restart: unless-stopped
+    networks:
+      - web-network
+
+networks:
+  web-network:
+    external: true
